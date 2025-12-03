@@ -8,15 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in Urban Analytics Lab at the Department of Architecture and is working with Dr Filip Biljecki. My research focuses on conceptualisation, semantics and adoption of 3D city models and digital twins, as well as publicly available data. I hold a Master’s degree in Urban Planning from the University of Melbourne and a Bachelor's degree in Human Geography and Regional Planning from East China Normal University. Currently, I serve as a research associate for Multi-scale Digital Twins for the Urban Environment, leading the development of a digital twin campus platform.
+I am an Assistant Professor in Urban Planning and Data Analytics at University of Birmingham, leading the MSc in Urban Analytics and AI for Planners. My research focuses on applying advanced technologies to bridge research and practice in urban analytics, with a particular interest in 3D urban data and human-centric approaches to urban technology and digital twins. I hold my PhD in Urban Analytics from National University of Singapore (Urban Analytics Lab), and a Master’s degree from the University of Melbourne.
 
 [Resume](CV-BinyuLei-2024.pdf)
 
-Education
+Education 🎓
 ======
-* B.S. in Human Geography and Regional Planning, East China Normal University, 2017
+* PhD in Urban Analytics (Architecture), National University of Singapore, 2025
 * Master in Urban Planning, The University of Melbourne, 2019
+* B.S. in Human Geography and Regional Planning, East China Normal University, 2017
 
-Get in touch
+
+Get in touch 📧
 ======
-Please feel free to contact me if you have any ideas for collaboration or would like to engage in discussions. My interests span a wide range of urban-related topics, including but not limited to urban digital twins, 3D city models, participatory planning, social economics and smart cities. Looking forward to connecting and hearing from you!
+Please feel free to contact me if you have any ideas for collaboration or would like to engage in discussions. My interests span a wide range of urban-related topics, including but not limited to human-centric urban technology, urban informatics, human health, GeoAI. Looking forward to connecting and hearing from you!
