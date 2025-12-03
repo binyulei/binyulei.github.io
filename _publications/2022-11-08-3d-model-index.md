@@ -12,6 +12,7 @@ paperurl: 'https://doi.org/10.1080/13658816.2022.2140808'
 ---
 title: "Assessing and benchmarking 3D city models"
 collection: publications
+permalink: /publication/2022-11-08-3d-model-index
 date: 2024-07-01
 venue: 'International Journal of Geographical Information Science'
 excerpt: >
