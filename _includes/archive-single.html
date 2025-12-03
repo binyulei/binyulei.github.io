@@ -1,4 +1,4 @@
-{% include base_path %}
+<!-- {% include base_path %}
 
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
@@ -61,4 +61,33 @@
     {% endif %}
 
   </article>
-</div>
+</div> -->
+
+<article class="archive__item publication-entry">
+  <h3 class="archive__item-title">
+    {% if post.link %}
+      <a href="{{ post.link }}" target="_blank">{{ post.title }}</a>
+    {% else %}
+      {{ post.title }}
+    {% endif %}
+  </h3>
+
+  {% if post.venue %}
+    <p class="publication-meta">
+      <em>{{ post.venue }}</em>
+      {% if post.date %}
+        , {{ post.date | date: "%Y" }}
+      {% endif %}
+    </p>
+  {% endif %}
+
+  {% if post.excerpt %}
+    <p class="publication-excerpt">{{ post.excerpt }}</p>
+  {% endif %}
+
+  {% if post.paperurl %}
+    <p class="publication-links">
+      <a href="{{ post.paperurl }}" class="btn btn--small" target="_blank">PDF</a>
+    </p>
+  {% endif %}
+</article>
