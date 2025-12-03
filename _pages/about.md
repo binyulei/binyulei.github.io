@@ -1,4 +1,5 @@
 ---
+layout: page
 permalink: /
 title: "About me"
 excerpt: "About me"
@@ -12,13 +13,13 @@ I am an Assistant Professor in Urban Planning and Data Analytics at University o
 
 [Resume](CV-BinyuLei-2024.pdf)
 
-Education 🎓
-======
+## Education 🎓
+<!-- ====== -->
 * PhD in Urban Analytics (Architecture), National University of Singapore, 2025
 * Master in Urban Planning, The University of Melbourne, 2019
 * B.S. in Human Geography and Regional Planning, East China Normal University, 2017
 
 
-Get in touch 📧
-======
+## Get in touch 📧
+<!-- ====== -->
 Please feel free to contact me if you have any ideas for collaboration or would like to engage in discussions. My interests span a wide range of urban-related topics, including but not limited to human-centric urban technology, urban informatics, human health, GeoAI. Looking forward to connecting and hearing from you!

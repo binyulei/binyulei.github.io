@@ -81,9 +81,10 @@
     </p>
   {% endif %}
 
-  {% if post.excerpt %}
-    <p class="publication-excerpt">{{ post.excerpt }}</p>
+  {% if post.excerpt != '' and post.excerpt %}
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
   {% endif %}
+
 
   {% if post.paperurl %}
     <p class="publication-links">
