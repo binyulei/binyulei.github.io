@@ -1,9 +1,10 @@
 ---
+layout: none
+published: false
 title: "3D City Index"
 collection: projects
 permalink: /projects/3d-city-index
 excerpt: "Assessing and benchmarking 3D City Models"
-layout: single
 link: 'https://github.com/binyulei/3D-City-Index'
 ---
 
