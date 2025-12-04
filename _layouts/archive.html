@@ -13,7 +13,9 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  {% include sidebar.html %}
+  {% unless page.sidebar == false %}
+    {% include sidebar.html %}
+  {% endunless %}
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
