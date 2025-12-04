@@ -184,8 +184,6 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: false   
   talks:
     output: true
     permalink: /:collection/:path/
@@ -231,7 +229,7 @@ defaults:
       comments: true
   # _projects
   - scope:
-      path: ""
+      path: "_projects"
       type: projects
     values:
       layout: single
