@@ -1,6 +1,4 @@
 ---
-layout: none
-published: false
 title: "Building Perception in 3D cities"
 collection: projects
 permalink: /projects/3d-building-perception

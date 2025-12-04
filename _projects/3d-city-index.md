@@ -1,6 +1,4 @@
 ---
-layout: none
-published: false
 title: "3D City Index"
 collection: projects
 permalink: /projects/3d-city-index
