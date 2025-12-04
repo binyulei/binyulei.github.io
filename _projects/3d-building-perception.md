@@ -2,6 +2,7 @@
 title: "Building Perception in 3D cities"
 collection: projects
 permalink: /projects/3d-building-perception
+date: 2024-09-20
 excerpt: "Integrating human perception in 3D city models and urban digital twins"
 link: 'http://github.com/binyulei/3D_building_perception'
 ---

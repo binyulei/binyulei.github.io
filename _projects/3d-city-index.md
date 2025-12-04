@@ -2,6 +2,7 @@
 title: "3D City Index"
 collection: projects
 permalink: /projects/3d-city-index
+date: 2025-09-20
 excerpt: "Assessing and benchmarking 3D City Models"
 link: 'https://github.com/binyulei/3D-City-Index'
 ---
