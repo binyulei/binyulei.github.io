@@ -1,5 +1,4 @@
-{% if post.collection == 'projects' %}
-<article class="archive__item project-entry">
+<article class="archive__item">
   <h3 class="archive__item-title">
     {% if post.link %}
       <a href="{{ post.link }}" target="_blank">{{ post.title }}</a>
@@ -8,8 +7,26 @@
     {% endif %}
   </h3>
 
+  {% if post.venue %}
+    <p class="archive__item-meta">
+      <em>{{ post.venue }}</em>
+      {% if post.date %}
+        , {{ post.date | date: "%Y" }}
+      {% endif %}
+      {% if post.location %}
+        — {{ post.location }}
+      {% endif %}
+    </p>
+  {% endif %}
+
   {% if post.excerpt %}
     <p class="archive__item-excerpt">{{ post.excerpt | markdownify }}</p>
   {% endif %}
+
+  {% if post.slideurl %}
+    <a href="{{ post.slideurl }}" target="_blank" class="btn btn--small">Slides</a>
+  {% endif %}
+  {% if post.video %}
+    <a href="{{ post.video }}" target="_blank" class="btn btn--small">Video</a>
+  {% endif %}
 </article>
-{% endif %}
