@@ -1,5 +1,5 @@
-<article class="archive__item">
-  <h3 class="archive__item-title">
+<article class="archive__item {% if post.collection == 'talks' %}talk-entry{% endif %}">
+  <h3 class="archive__item-title {% if post.collection == 'talks' %}talk-title{% endif %}">
     {% if post.link %}
       <a href="{{ post.link }}" target="_blank">{{ post.title }}</a>
     {% else %}
@@ -7,14 +7,16 @@
     {% endif %}
   </h3>
 
-  {% if post.venue %}
-    <p class="archive__item-meta">
-      <em>{{ post.venue }}</em>
+  {% if post.venue or post.date %}
+    <p class="archive__item-meta {% if post.collection == 'talks' %}talk-meta{% endif %}">
       {% if post.date %}
-        , {{ post.date | date: "%Y" }}
+        {{ post.date | date: "%B %d, %Y" }}
+      {% endif %}
+      {% if post.venue %}
+        <br>{{ post.venue }}
       {% endif %}
       {% if post.location %}
-        — {{ post.location }}
+        , {{ post.location }}
       {% endif %}
     </p>
   {% endif %}
