@@ -27,3 +27,25 @@
     </p>
   {% endif %}
 </article>
+
+{% if post.collection == 'projects' %}
+  <!-- Add project-specific layout or classes -->
+  <article class="archive__item project-entry">
+    <h3 class="archive__item-title">
+      {% if post.link %}
+        <a href="{{ post.link }}" target="_blank">{{ post.title }}</a>
+      {% else %}
+        {{ post.title }}
+      {% endif %}
+    </h3>
+
+    {% if post.excerpt %}
+      <p class="archive__item-excerpt">{{ post.excerpt | markdownify }}</p>
+    {% endif %}
+    
+    {% if post.image %}
+      <img src="{{ post.image }}" alt="{{ post.title }} thumbnail" />
+    {% endif %}
+  </article>
+{% endif %}
+
